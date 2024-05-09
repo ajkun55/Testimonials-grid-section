@@ -42,7 +42,7 @@ body{
     background-color: var(--clr-Light-grayish-blue);
     display: grid;
     grid-template-rows: 1fr auto;
-    line-height: 1.5;
+    
 }
 
 main{
@@ -134,8 +134,12 @@ main{
 }
 
 .testimonial{
-    padding-block: 1rem;
+    padding-block: 0.8rem;
     font-size: 1.1rem;
+}
+
+.paragraph{
+    line-height: 1.25;
 }
 
 .name{
@@ -172,11 +176,10 @@ main{
     .pat { grid-area: 2 / 2 / 3 / 4; }
     .card{
         width: 100%;
-        padding: 2rem;
+        padding: 1.8rem;
     }
     .testimonial{
-        font-size: 1.34rem;
-        line-height: 1.4;
+        font-size: 1.3rem;
     }
 }
 
