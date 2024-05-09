@@ -177,6 +177,9 @@ main{
     .card{
         width: 100%;
         padding: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .testimonial{
         font-size: 1.3rem;
